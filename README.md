@@ -4,6 +4,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/archlinux/archlinux-original.svg" width="36" title="Arch" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linuxmint/linuxmint-original.svg" width="36" title="linuxmint" />
   <img src="https://www.php.net//images/logos/new-php-logo.svg" width="36" title="PHP" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/html5/html5-plain.svg" width="36" title="html" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/typescript/typescript-original.svg" width="36" title="typescript" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/elixir/elixir-original.svg" width="36" title="Elixir" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" title="Python" />
