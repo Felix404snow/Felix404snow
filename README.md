@@ -1,4 +1,5 @@
 <p align="center">pão com carne é muito bom tropa aham.</p>
+<img src="https://zpaysolution.com/i/isnouu/lxbhbmluas5wbmc.png" width="36" title="paocomcarne" />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linux/linux-original.svg" width="36" title="Linux" />
