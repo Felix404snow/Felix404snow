@@ -1,38 +1,94 @@
 <p align="center">
-  pão com carne é muito bom tropa aham.
-  <img src="https://zpaysolution.com/i/isnouu/lxbhbmluas5wbmc.png" width="36" title="paocomcarne" align="center" />
+  <img src="https://zpaysolution.com/images/zpayabanner.png" alt="Z.PAY" width="100%" />
 </p>
 
+<div align="center">
+  <img
+    src="https://i.pinimg.com/736x/40/c5/2d/40c52da2c014d773367ad145c627e949.jpg"
+    alt="Gabriel Félix"
+    width="180"
+    height="180"
+    style="border-radius: 24px; object-fit: cover;"
+  />
+  <p><strong>feito por Gabriel Félix ("isnouu")</strong></p>
+</div>
+
+---
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linux/linux-original.svg" width="36" title="Linux" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/archlinux/archlinux-original.svg" width="36" title="Arch" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/linuxmint/linuxmint-original.svg" width="36" title="linuxmint" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/cloudflare/cloudflare-original.svg" width="36" title="Cloudflare" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/discordjs/discordjs-original.svg" width="36" title="discordjs-original.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" title="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/mongodb/mongodb-original.svg" width="36" title="Mongo / MongoDB" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/7330accdbc47e2dc0c19789a48533c4a3c50fe58/icons/mongoose/mongoose-original.svg" width="36" title="Mongoose" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="36" title="SQL / MySQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="36" title="PostgreSQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" title="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" width="36" title="Elixir" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" title="React" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="36" title="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="36" title="PHP" />
+  <img src="https://zpaysolution.com/images/zaylahappy.png" alt="Zayla" height="140" />
 </p>
 
-<p align="center">projects</p>
+# Z.PAY
+
+API Pix **sem mensalidade** — gera cobrança, confirma em segundos e credita no saldo. Feita pra streamers, lojas, bots e quem quer plugar Pix sem enrolação.
+
+**Site:** [zpaysolution.com](https://zpaysolution.com/)  
+**Docs ao vivo:** [zpaysolution.com/docs](https://zpaysolution.com/docs/)  
+**Base da API:** `https://zpaysolution.com/api/v1`
+
+---
+
+## Guias
+
+| Guia | O que cobre |
+| --- | --- |
+| [Como gerar pagamento](docs/gerar-pagamento.md) | `POST /payments` — QR, copia e cola |
+| [Consultar / aprovar pagamento](docs/consultar-pagamento.md) | Status `pending` → `paid` |
+| [Checkout hospedado](docs/checkout.md) | Link pronto pra pagar |
+| [Webhooks](docs/webhooks.md) | Aviso quando o Pix cair |
+| [Cashout (enviar Pix)](docs/cashout.md) | Saque via API |
+| [Crypto](docs/crypto.md) | BTC, ETH, SOL e mais |
+| [White e Black](docs/white-black.md) | Taxas e limites por perfil |
+
+---
+
+## Em poucas linhas
+
+```bash
+curl -sS -X POST "https://zpaysolution.com/api/v1/payments" \
+  -H "client-id: zpk_..." \
+  -H "client-secret: zsk_..." \
+  -H "Content-Type: application/json" \
+  -d '{"amount":20,"payerName":"Cliente","description":"Pedido #1"}'
+```
+
+Resposta traz `paymentId`, `copyPaste` e `qrCodeBase64`. Quando o Pix é pago, o valor líquido entra no saldo (menos a taxa do perfil).
 
 <p align="center">
-  <a href="https://zpaysolution.com/" target="_blank"><img src="https://zpaysolution.com/images/zpay-logo.png" height="40" /></a>
-  <a href="https://ghosthub.fun/" target="_blank"><img src="https://ghosthub.shardweb.app/logo.png" height="40" /></a>
-  <a href="https://discord.com/invite/cmsp" target="_blank"><img src="https://zpaysolution.com/i/fuam/logo-cmsp.png" height="40" /></a>
+  <img src="https://zpaysolution.com/images/zaylaapontando.png" alt="Zayla apontando" height="120" />
 </p>
 
+## Contas
+
+| | **White** | **Black** |
+| --- | --- | --- |
+| Cash-in | R$ 0,50 | 6% + R$ 1,50 |
+| Cashout API | R$ 0,50 | R$ 1,50 |
+| Ticket máx. cash-in | R$ 2.000 | R$ 500 |
+| Ideal para | vendas, bots, SaaS | alto risco / adulto |
+
+Detalhes: [White e Black](docs/white-black.md)
+
+---
+
+## Links rápidos
+
+- [Entrar / criar conta](https://zpaysolution.com/login/)
+- [Como funciona](https://zpaysolution.com/howwork/)
+- [FAQ](https://zpaysolution.com/faq/)
+- [Termos](https://zpaysolution.com/termos/)
+- [Privacidade](https://zpaysolution.com/politica-de-privacidade/)
+- [Discord](https://zpaysolution.com/)
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2k4MXh6ZnJjMmY3dW9mMWF2cDNqZ2ZnaHp5bjU2eDdxemh1YzZ6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYMTfc3UFuqKTS0NP0/giphy.gif" width="480" alt="" />
+  <img src="https://zpaysolution.com/images/zaylacelular.png" alt="Zayla celular" height="130" />
+  &nbsp;
+  <img src="https://zpaysolution.com/images/zaylaplaca.png" alt="Zayla placa" height="130" />
+</p>
+
+---
+
+<p align="center">
+  <sub>Z.PAY Tecnologia · Pix, checkout, crypto e webhooks · <a href="https://zpaysolution.com/">zpaysolution.com</a></sub>
 </p>
