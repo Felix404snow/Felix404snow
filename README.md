@@ -27,22 +27,12 @@
 <p align="center">projects</p>
 
 <p align="center">
-  <a href="https://zpaysolution.com/" target="_blank">
-    <img src="https://zpaysolution.com/images/zpay-logo.png" height="40" />
-  </a>
-  <a href="https://ghosthub.fun/" target="_blank">
-    <img src="https://ghosthub.shardweb.app/logo.png" height="40" />
-  </a>
-  <a href="https://discord.com/invite/cmsp" target="_blank">
-    <img src="https://zpaysolution.com/i/fuam/logo-cmsp.png" height="40" />
-  </a>
+  <a href="https://zpaysolution.com/" target="_blank"><img src="https://zpaysolution.com/images/zpay-logo.png" height="40" /></a>
+  <a href="https://ghosthub.fun/" target="_blank"><img src="https://ghosthub.shardweb.app/logo.png" height="40" /></a>
+  <a href="https://discord.com/invite/cmsp" target="_blank"><img src="https://zpaysolution.com/i/fuam/logo-cmsp.png" height="40" /></a>
 </p>
 
+
 <p align="center">
-  <img
-    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2k4MXh6ZnJjMmY3dW9mMWF2cDNqZ2ZnaHp5bjU2eDdxemh1YzZ6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYMTfc3UFuqKTS0NP0/giphy.gif"
-    width="480"
-    alt=""
-    style="border: 3px solid #5865F2; border-radius: 12px; box-shadow: 0 0 15px #5865F2;"
-  />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2k4MXh6ZnJjMmY3dW9mMWF2cDNqZ2ZnaHp5bjU2eDdxemh1YzZ6dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYMTfc3UFuqKTS0NP0/giphy.gif" width="480" alt="" />
 </p>
